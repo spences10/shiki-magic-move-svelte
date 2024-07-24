@@ -61,10 +61,10 @@ devDependencies:
     version: 0.6.5(prettier-plugin-svelte@3.2.6)(prettier@3.3.3)
   shiki:
     specifier: ^1.11.0
-    version: 1.11.0
+    version: 1.11.1
   shiki-magic-move:
     specifier: ^0.4.3
-    version: 0.4.3(shiki@1.11.0)(svelte@5.0.0-next.195)
+    version: 0.4.3(shiki@1.11.1)(svelte@5.0.0-next.195)
   svelte:
     specifier: ^5.0.0-next.1
     version: 5.0.0-next.195
@@ -582,8 +582,8 @@ packages:
     dev: true
     optional: true
 
-  /@shikijs/core@1.11.0:
-    resolution: {integrity: sha512-VbEhDAhT/2ozO0TPr5/ZQBO/NWLqtk4ZiBf6NplYpF38mKjNfMMied5fNEfIfYfN+cdKvhDB4VMcKvG/g9c3zg==}
+  /@shikijs/core@1.11.1:
+    resolution: {integrity: sha512-Qsn8h15SWgv5TDRoDmiHNzdQO2BxDe86Yq6vIHf5T0cCvmfmccJKIzHtep8bQO9HMBZYCtCBzaXdd1MnxZBPSg==}
     dependencies:
       '@types/hast': 3.0.4
     dev: true
@@ -2467,7 +2467,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /shiki-magic-move@0.4.3(shiki@1.11.0)(svelte@5.0.0-next.195):
+  /shiki-magic-move@0.4.3(shiki@1.11.1)(svelte@5.0.0-next.195):
     resolution: {integrity: sha512-d38ong47QG8TVNXz+Qg5tiu2NSNTYZU8WVSsrd+QlMbZmJtMIMyQqhBXOgfLLQKpewwA8TXhqHF2QuLMnpHaLQ==}
     peerDependencies:
       react: ^18.2.0
@@ -2486,14 +2486,14 @@ packages:
     dependencies:
       diff-match-patch-es: 0.1.0
       ohash: 1.1.3
-      shiki: 1.11.0
+      shiki: 1.11.1
       svelte: 5.0.0-next.195
     dev: true
 
-  /shiki@1.11.0:
-    resolution: {integrity: sha512-NqH/O1zRHvnuk/WfSL6b7+DtI7/kkMMSQGlZhm9DyzSU+SoIHhaw/fBZMr+zp9R8KjdIzkk3JKSC6hORuGDyng==}
+  /shiki@1.11.1:
+    resolution: {integrity: sha512-VHD3Q0EBXaaa245jqayBe5zQyMQUdXBFjmGr9MpDaDpAKRMYn7Ff00DM5MLk26UyKjnml3yQ0O2HNX7PtYVNFQ==}
     dependencies:
-      '@shikijs/core': 1.11.0
+      '@shikijs/core': 1.11.1
       '@types/hast': 3.0.4
     dev: true
 
