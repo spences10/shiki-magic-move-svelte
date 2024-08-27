@@ -64,7 +64,7 @@ devDependencies:
     version: 1.12.1
   shiki-magic-move:
     specifier: ^0.4.3
-    version: 0.4.3(shiki@1.12.1)(svelte@5.0.0-next.196)
+    version: 0.4.4(shiki@1.12.1)(svelte@5.0.0-next.196)
   svelte:
     specifier: ^5.0.0-next.1
     version: 5.0.0-next.196
@@ -2486,8 +2486,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /shiki-magic-move@0.4.3(shiki@1.12.1)(svelte@5.0.0-next.196):
-    resolution: {integrity: sha512-d38ong47QG8TVNXz+Qg5tiu2NSNTYZU8WVSsrd+QlMbZmJtMIMyQqhBXOgfLLQKpewwA8TXhqHF2QuLMnpHaLQ==}
+  /shiki-magic-move@0.4.4(shiki@1.12.1)(svelte@5.0.0-next.196):
+    resolution: {integrity: sha512-vdhy7MLfj8Gv32rOCEQFPKJLHQuGGRD02agP4XFbP20R7ecMANsj+p86Hg+lpg7kPl2YeWMOoq9PW+tP4gYuVw==}
     peerDependencies:
       react: ^18.2.0
       shiki: ^1.1.6
