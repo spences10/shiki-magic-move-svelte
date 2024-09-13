@@ -6,13 +6,13 @@ settings:
 
 devDependencies:
   '@playwright/test':
-    specifier: ^1.46.1
+    specifier: ^1.47.0
     version: 1.47.0
   '@sveltejs/adapter-auto':
     specifier: ^3.2.4
     version: 3.2.4(@sveltejs/kit@2.5.26)
   '@sveltejs/kit':
-    specifier: ^2.5.25
+    specifier: ^2.5.26
     version: 2.5.26(@sveltejs/vite-plugin-svelte@3.1.2)(svelte@5.0.0-next.245)(vite@5.4.4)
   '@sveltejs/vite-plugin-svelte':
     specifier: ^3.1.2
@@ -24,10 +24,10 @@ devDependencies:
     specifier: ^9.6.1
     version: 9.6.1
   '@typescript-eslint/eslint-plugin':
-    specifier: ^8.3.0
+    specifier: ^8.5.0
     version: 8.5.0(@typescript-eslint/parser@8.5.0)(eslint@9.10.0)(typescript@5.6.2)
   '@typescript-eslint/parser':
-    specifier: ^8.3.0
+    specifier: ^8.5.0
     version: 8.5.0(eslint@9.10.0)(typescript@5.6.2)
   autoprefixer:
     specifier: ^10.4.20
@@ -36,16 +36,16 @@ devDependencies:
     specifier: ^4.12.10
     version: 4.12.10(postcss@8.4.45)
   eslint:
-    specifier: ^9.9.1
+    specifier: ^9.10.0
     version: 9.10.0
   eslint-config-prettier:
     specifier: ^9.1.0
     version: 9.1.0(eslint@9.10.0)
   eslint-plugin-svelte:
-    specifier: ^2.43.0
+    specifier: ^2.44.0
     version: 2.44.0(eslint@9.10.0)(svelte@5.0.0-next.245)
   postcss:
-    specifier: ^8.4.41
+    specifier: ^8.4.45
     version: 8.4.45
   postcss-load-config:
     specifier: ^6.0.1
@@ -60,7 +60,7 @@ devDependencies:
     specifier: ^0.6.6
     version: 0.6.6(prettier-plugin-svelte@3.2.6)(prettier@3.3.3)
   shiki:
-    specifier: ^1.15.1
+    specifier: ^1.17.5
     version: 1.17.5
   shiki-magic-move:
     specifier: ^0.4.4
@@ -69,22 +69,22 @@ devDependencies:
     specifier: ^5.0.0-next.1
     version: 5.0.0-next.245
   svelte-check:
-    specifier: ^3.8.6
-    version: 3.8.6(postcss-load-config@6.0.1)(postcss@8.4.45)(svelte@5.0.0-next.245)
+    specifier: ^4.0.2
+    version: 4.0.2(svelte@5.0.0-next.245)(typescript@5.6.2)
   tailwindcss:
-    specifier: ^3.4.10
+    specifier: ^3.4.11
     version: 3.4.11
   tslib:
     specifier: ^2.7.0
     version: 2.7.0
   typescript:
-    specifier: ^5.5.4
+    specifier: ^5.6.2
     version: 5.6.2
   vite:
-    specifier: ^5.4.2
+    specifier: ^5.4.4
     version: 5.4.4
   vitest:
-    specifier: ^2.0.5
+    specifier: ^2.1.0
     version: 2.1.0
 
 packages:
@@ -738,10 +738,6 @@ packages:
     resolution: {integrity: sha512-kGaNbPh1k7AFzgpud/gMdvIm5xuECykRR+JnWKQno9TAXVa6WIVCGTPvYGekIDL4uwCZQSYbUxNBSb1aUo79oA==}
     dependencies:
       '@types/unist': 3.0.3
-    dev: true
-
-  /@types/pug@2.0.10:
-    resolution: {integrity: sha512-Sk/uYFOBAB7mb74XcpizmH0KOR2Pv3D2Hmrh1Dmy5BmK3MpdSa5kqZcg6EKBdklU0bFXX9gCfzvpnyUehrPIuA==}
     dev: true
 
   /@types/unist@3.0.3:
@@ -1939,11 +1935,6 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /min-indent@1.0.1:
-    resolution: {integrity: sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==}
-    engines: {node: '>=4'}
-    dev: true
-
   /minimatch@3.1.2:
     resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
     dependencies:
@@ -2020,12 +2011,6 @@ packages:
 
   /ohash@1.1.3:
     resolution: {integrity: sha512-zuHHiGTYTA1sYJ/wZN+t5HKZaH23i4yI1HMwbuXm24Nid7Dv0KcuRlKoNKS9UNfAVSBlnGLcuQrnOKWOZoEGaw==}
-    dev: true
-
-  /oniguruma-to-js@0.4.0:
-    resolution: {integrity: sha512-GwNFPQygkpDjO9MOr54Rqi01dGS+h9VAS//Qxz9lTN5B09CxqiIc7rydvdV+Ex2Z8Vk+zqfHH7hU6ePn8uf+Mg==}
-    dependencies:
-      wrappy: 1.0.2
     dev: true
 
   /oniguruma-to-js@0.4.0:
@@ -2401,14 +2386,6 @@ packages:
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
     dev: true
 
-  /rimraf@2.7.1:
-    resolution: {integrity: sha512-uWjbaKIK3T1OSVptzX7Nl6PvQ3qAGtKEtVRjRuazjfL3Bx5eI409VZSqgND+4UNnmzLVdPj9FqFJNPqBZFve4w==}
-    deprecated: Rimraf versions prior to v4 are no longer supported
-    hasBin: true
-    dependencies:
-      glob: 7.2.3
-    dev: true
-
   /rollup@4.21.3:
     resolution: {integrity: sha512-7sqRtBNnEbcBtMeRVc6VRsJMmpI+JU1z9VTvW8D4gXIYQFz0aLcsE6rRkyghZkLfEgUZgVvOG7A5CVz/VW5GIA==}
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
@@ -2446,15 +2423,6 @@ packages:
     engines: {node: '>=6'}
     dependencies:
       mri: 1.2.0
-    dev: true
-
-  /sander@0.5.1:
-    resolution: {integrity: sha512-3lVqBir7WuKDHGrKRDn/1Ye3kwpXaDOMsiRP1wd6wpZW56gJhsbp5RqQpA6JG/P+pkXizygnr1dKR8vzWaVsfA==}
-    dependencies:
-      es6-promise: 3.3.1
-      graceful-fs: 4.2.11
-      mkdirp: 0.5.6
-      rimraf: 2.7.1
     dev: true
 
   /semver@7.6.3:
@@ -2536,11 +2504,6 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /source-map-js@1.2.1:
-    resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
-    engines: {node: '>=0.10.0'}
-    dev: true
-
   /space-separated-tokens@2.0.2:
     resolution: {integrity: sha512-PEGlAwrG8yXGXRjW32fGbg66JAlOAwbObuqVoJpv/mRgoWDQfgH1wDPvtzWyUSNAXBGSk8h755YDbbcEy3SH2Q==}
     dev: true
@@ -2592,13 +2555,6 @@ packages:
       ansi-regex: 6.1.0
     dev: true
 
-  /strip-indent@3.0.0:
-    resolution: {integrity: sha512-laJTa3Jb+VQpaC6DseHhF7dXVqHTfJPCRDaEbid/drOhgitgYku/letMUqOXFoWV0zIIUbjpdH2t+tYj4bQMRQ==}
-    engines: {node: '>=8'}
-    dependencies:
-      min-indent: 1.0.1
-    dev: true
-
   /strip-json-comments@3.1.1:
     resolution: {integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==}
     engines: {node: '>=8'}
@@ -2630,8 +2586,9 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check@3.8.6(postcss-load-config@6.0.1)(postcss@8.4.45)(svelte@5.0.0-next.245):
-    resolution: {integrity: sha512-ij0u4Lw/sOTREP13BdWZjiXD/BlHE6/e2e34XzmVmsp5IN4kVa3PWP65NM32JAgwjZlwBg/+JtiNV1MM8khu0Q==}
+  /svelte-check@4.0.2(svelte@5.0.0-next.245)(typescript@5.6.2):
+    resolution: {integrity: sha512-w2yqcG9ELJe2RJCnAvB7v0OgkHhL3czzz/tVoxGFfO6y4mOrF6QHCDhXijeXzsU7LVKEwWS3Qd9tza4JBuDxqA==}
+    engines: {node: '>= 18.0.0'}
     hasBin: true
     peerDependencies:
       svelte: ^4.0.0 || ^5.0.0-next.0
@@ -2639,10 +2596,10 @@ packages:
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
       chokidar: 3.6.0
+      fdir: 6.3.0
       picocolors: 1.1.0
       sade: 1.8.1
       svelte: 5.0.0-next.245
-      svelte-preprocess: 5.1.4(postcss-load-config@6.0.1)(postcss@8.4.45)(svelte@5.0.0-next.245)(typescript@5.6.2)
       typescript: 5.6.2
     transitivePeerDependencies:
       - picomatch
@@ -2672,55 +2629,6 @@ packages:
       svelte: ^3.19.0 || ^4.0.0
     dependencies:
       svelte: 5.0.0-next.245
-    dev: true
-
-  /svelte-preprocess@5.1.4(postcss-load-config@6.0.1)(postcss@8.4.45)(svelte@5.0.0-next.245)(typescript@5.6.2):
-    resolution: {integrity: sha512-IvnbQ6D6Ao3Gg6ftiM5tdbR6aAETwjhHV+UKGf5bHGYR69RQvF1ho0JKPcbUON4vy4R7zom13jPjgdOWCQ5hDA==}
-    engines: {node: '>= 16.0.0'}
-    requiresBuild: true
-    peerDependencies:
-      '@babel/core': ^7.10.2
-      coffeescript: ^2.5.1
-      less: ^3.11.3 || ^4.0.0
-      postcss: ^7 || ^8
-      postcss-load-config: ^2.1.0 || ^3.0.0 || ^4.0.0 || ^5.0.0
-      pug: ^3.0.0
-      sass: ^1.26.8
-      stylus: ^0.55.0
-      sugarss: ^2.0.0 || ^3.0.0 || ^4.0.0
-      svelte: ^3.23.0 || ^4.0.0-next.0 || ^4.0.0 || ^5.0.0-next.0
-      typescript: '>=3.9.5 || ^4.0.0 || ^5.0.0'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-      coffeescript:
-        optional: true
-      less:
-        optional: true
-      postcss:
-        optional: true
-      postcss-load-config:
-        optional: true
-      pug:
-        optional: true
-      sass:
-        optional: true
-      stylus:
-        optional: true
-      sugarss:
-        optional: true
-      typescript:
-        optional: true
-    dependencies:
-      '@types/pug': 2.0.10
-      detect-indent: 6.1.0
-      magic-string: 0.30.11
-      postcss: 8.4.45
-      postcss-load-config: 6.0.1(postcss@8.4.45)
-      sorcery: 0.11.1
-      strip-indent: 3.0.0
-      svelte: 5.0.0-next.245
-      typescript: 5.6.2
     dev: true
 
   /svelte@5.0.0-next.245:
