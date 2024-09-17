@@ -19,7 +19,7 @@ devDependencies:
     version: 3.1.2(svelte@5.0.0-next.245)(vite@5.4.4)
   '@tailwindcss/typography':
     specifier: ^0.5.15
-    version: 0.5.15(tailwindcss@3.4.11)
+    version: 0.5.15(tailwindcss@3.4.12)
   '@types/eslint':
     specifier: ^9.6.1
     version: 9.6.1
@@ -73,7 +73,7 @@ devDependencies:
     version: 4.0.2(svelte@5.0.0-next.245)(typescript@5.6.2)
   tailwindcss:
     specifier: ^3.4.11
-    version: 3.4.11
+    version: 3.4.12
   tslib:
     specifier: ^2.7.0
     version: 2.7.0
@@ -697,7 +697,7 @@ packages:
       - supports-color
     dev: true
 
-  /@tailwindcss/typography@0.5.15(tailwindcss@3.4.11):
+  /@tailwindcss/typography@0.5.15(tailwindcss@3.4.12):
     resolution: {integrity: sha512-AqhlCXl+8grUz8uqExv5OTtgpjuVIwFTSXTrh8y9/pw6q2ek7fJ+Y8ZEVw7EB2DCcuCOtEjf9w3+J3rzts01uA==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders || >=4.0.0-alpha.20'
@@ -706,7 +706,7 @@ packages:
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       postcss-selector-parser: 6.0.10
-      tailwindcss: 3.4.11
+      tailwindcss: 3.4.12
     dev: true
 
   /@types/cookie@0.6.0:
@@ -2650,8 +2650,8 @@ packages:
       zimmerframe: 1.1.2
     dev: true
 
-  /tailwindcss@3.4.11:
-    resolution: {integrity: sha512-qhEuBcLemjSJk5ajccN9xJFtM/h0AVCPaA6C92jNP+M2J8kX+eMJHI7R2HFKUvvAsMpcfLILMCFYSeDwpMmlUg==}
+  /tailwindcss@3.4.12:
+    resolution: {integrity: sha512-Htf/gHj2+soPb9UayUNci/Ja3d8pTmu9ONTfh4QY8r3MATTZOzmv6UYWF7ZwikEIC8okpfqmGqrmDehua8mF8w==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
