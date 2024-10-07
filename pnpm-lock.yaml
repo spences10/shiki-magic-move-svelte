@@ -64,7 +64,7 @@ devDependencies:
     version: 1.21.0
   shiki-magic-move:
     specifier: ^0.4.4
-    version: 0.4.4(shiki@1.21.0)(svelte@5.0.0-next.260)
+    version: 0.4.5(shiki@1.21.0)(svelte@5.0.0-next.260)
   svelte:
     specifier: ^5.0.0-next.1
     version: 5.0.0-next.260
@@ -2029,8 +2029,8 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /ohash@1.1.3:
-    resolution: {integrity: sha512-zuHHiGTYTA1sYJ/wZN+t5HKZaH23i4yI1HMwbuXm24Nid7Dv0KcuRlKoNKS9UNfAVSBlnGLcuQrnOKWOZoEGaw==}
+  /ohash@1.1.4:
+    resolution: {integrity: sha512-FlDryZAahJmEF3VR3w1KogSEdWX3WhA5GPakFx4J81kEAiHyLMpdLLElS8n8dfNadMgAne/MywcvmogzscVt4g==}
     dev: true
 
   /oniguruma-to-js@0.4.3:
@@ -2472,8 +2472,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /shiki-magic-move@0.4.4(shiki@1.21.0)(svelte@5.0.0-next.260):
-    resolution: {integrity: sha512-vdhy7MLfj8Gv32rOCEQFPKJLHQuGGRD02agP4XFbP20R7ecMANsj+p86Hg+lpg7kPl2YeWMOoq9PW+tP4gYuVw==}
+  /shiki-magic-move@0.4.5(shiki@1.21.0)(svelte@5.0.0-next.260):
+    resolution: {integrity: sha512-YsCJEBg7qe97I0niBIIXcWVqQYSkXJQnxvQDCQuPKU7D4WoItGJ0AvEEVqJhLmtqc4X8qQ/4dhjIZta9JN4U9Q==}
     peerDependencies:
       react: ^18.2.0
       shiki: ^1.1.6
@@ -2490,7 +2490,7 @@ packages:
         optional: true
     dependencies:
       diff-match-patch-es: 0.1.0
-      ohash: 1.1.3
+      ohash: 1.1.4
       shiki: 1.21.0
       svelte: 5.0.0-next.260
     dev: true
